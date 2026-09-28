@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mostafa-mohsen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== القسم 1: الألبوم (6 صور) ===== -->
+    <section class="section album-section">
+        <h1 class="title">📸 ذكريات مع المستر</h1>
+        <div class="album">
+            <img src="1.jpeg" alt="صورة 1">
+            <img src="2.jpeg" alt="صورة 2">
+            <img src="3.jpeg" alt="صورة 3">
+            <img src="4.jpeg" alt="صورة 4">
+            <img src="5.jpeg" alt="صورة 5">
+            <img src="6.jpeg" alt="صورة 6">
+        </div>
+
+        <!-- سهم ينزل تحت -->
+        <div class="scroll-hint">
+            <p>انزل تحت 👇</p>
+            <div class="arrow">⌄</div>
+        </div>
+    </section>
+
+    <!-- ===== القسم 2: زرار الهدية ===== -->
+    <section class="section gift-button-section" id="giftButtonSection">
+        <h1 class="title">🎉 عندنا لك هدية!</h1>
+        <button id="openGiftBtn" class="gift-btn">
+            🎁 افتح الهدية
+        </button>
+    </section>
+
+    <!-- ===== القسم 3: الصورتين ===== -->
+<section class="section gift-content-section" id="giftContentSection">
+    <h1 class="title">✨ كل سنة وانت طيب يا مستر ✨</h1>
+    
+    <div class="gift-photos">
+        <div class="photo-wrapper">
+            <img src="10.png" alt="هدية 1" class="gift-img">
+            <a href="10.png" download="هدية-1.png" class="download-btn">⬇️ نزّل الصورة</a>
+        </div>
+        <div class="photo-wrapper">
+            <img src="11.png" alt="هدية 2" class="gift-img">
+            <a href="11.png" download="هدية-2.png" class="download-btn">⬇️ نزّل الصورة</a>
+        </div>
+    </div>
+
+    <p class="message">شكراً على كل حاجة علمتنا إياها 💙</p>
+</section>
+
+<a href="pr/1.png" download="هدية-1.png" class="download-btn"></a>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+
+
+        <!-- Lightbox لتكبير الصور -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img id="lightboxImg" src="" alt="صورة مكبرة">
+    </div>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
